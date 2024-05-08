@@ -8,6 +8,7 @@ const server = http.createServer((req, res) =>{
   res.setHeader("Content-Type", "application/json");
   res.write(JSON.stringify({
     message: "Hello JusDev, Welcome to Nodejs course"
+    fd
   }))
   res.end();
 
